@@ -1,5 +1,3 @@
-
-
 const Cards = (veriler) => {
   const charactersDivJs = document.createElement("div");
   const box = document.createElement("div");
@@ -76,13 +74,13 @@ const cardEkleyici = () => {
   .get("https://akabab.github.io/starwars-api/api/all.json")
   .then((res) => {
      console.log(res.data)
-     res.data.forEach((x) => {
+     
       res.data.forEach((e) => {
         let result = Cards(e)
         document.querySelector(".cards").appendChild(result)
       })
      })
-  })
+  
 }
 
 cardEkleyici();
