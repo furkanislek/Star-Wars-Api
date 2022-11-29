@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+body {
+    background: url(http://wallpapercave.com/wp/pEeUsp1.jpg);
+    /* aspect-ratio: 20/2; */
+    background-position: center;
+    /* background-size: cover;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover; */
+    padding: 1rem 0;  
+  }
+
+  .logo {
+    margin: auto;
+    width: 30%;
+    padding: 0.5rem;
+    max-height: 10rem;
+}
+.header div{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* .characters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+
+.characters {
+    min-width: 30rem;
+    max-width: 30rem;
+    max-height: 20rem;
+    min-height: 20rem;
+    padding: 2rem 0.2rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    box-shadow: rgba(224, 218, 218, 0.35) 0px 5px 15px;
+    background-color: rgba(128, 128, 128, 0.555);
+}
+
+
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img {
+    max-width: 30%;
+    margin-right: 3rem;
+    max-height: 50%;
+}
+
+.boxChild {
+    margin: auto 0;
+}
+
+.boldStyle {
+    font-weight: 800;
+    color: black;
+}
